@@ -10,14 +10,18 @@ body{
     margin: auto;
     height: 100vh;
 }
+h3{
+    text-align: center;
+    margin-bottom: .5rem;
+}
 .color__board{
-    background-color: green;
+    background-color: black;
    border-radius: 10px;
    
     height: 50vh;
 }
 .buttons{
-    margin: 2rem 0;
+    margin: 1.5rem 0;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 1rem;
